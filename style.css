@@ -1,5 +1,10 @@
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+
 #profile-image {
-    height: 200 px;
+    height: 200px;
+    border-radius: 8px;
 }
 
 body {
@@ -11,8 +16,109 @@ img {
     border-radius: 20 px;
 }
 
-#header {
+header {
     color: red;
     font-size: 42px;
     text-align: center;
+    height: 100px;
+    background-color: #403933;
+}
+
+main {
+    padding-top: 50px;
+    background-color: beige;
+    font-family: 'Lato', sans-serif;
+    min-height: 500px;
+}
+
+footer {
+    padding-top: 20px;
+    height: 100px;
+    background-color: #403933;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+header H1 {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: auto;
+}
+
+footer a:link {
+    color: white;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: pink;
+}
+
+/* -------- =Column Layout -------*/
+ 
+  .one_fourth {   width:220px;  }
+  .one_third {    width:300px;  }
+  .one_half {     width:460px;  }
+  .two_third {    width:620px;  }
+  .three_fourth { width:700px;  }
+  .full_column {  width: 940px; }
+ 
+  .one_half,
+  .one_third,
+  .two_third, 
+  .three_fourth, 
+  .one_fourth, 
+  .full_column {
+    float:left;
+    margin-left:20px;
+    margin-bottom:20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+
+/* -- Clearfix -- */
+  .row:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+
+.two_third_h2 {
+    
+    width:620px;
+    float:right;
+    margin-left:200px;
+    margin-bottom:20px;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    width: 250px;
+}
+
+.two_third_text {
+    
+    width:620px;
+    float:right;
+    margin-left:200px;
+    margin-bottom:20px;
+    background-color: transparent;
+    color: black;
+    text-align: left;
+    width: 250px;
 }
